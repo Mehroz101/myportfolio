@@ -1,0 +1,65 @@
+#portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 75rem;
+  margin: 0px auto;
+  width: 100vw;
+}
+#portfolio h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+#portfolio p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  max-width: 50rem;
+  color: rgb(239, 239, 239);
+  padding: 1rem 2rem 2rem;
+}
+.portofiloCard {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 2rem;
+  flex-wrap: wrap;
+  max-width: 60rem;
+}
+.portofiloCard .card {
+  min-width: 250px;
+  height: 20rem;
+  flex: 1;
+  border-radius: 4px;
+  box-shadow: 1px 0px 5px  rgba(225, 225, 225, 0.9);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+
+}
+.workBtn{
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    #portfolio h1{
+        font-size: 2rem;
+    }
+    #portfolio p{
+        font-size: 0.9rem;
+    }
+   
+    .workBtn {
+        padding: 0.5rem 1rem;
+        margin-top: 10px;
+    }
+}

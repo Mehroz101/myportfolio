@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.footer p span{
+    color: rgb(0, 132, 255);
+    font-weight: 600;
+
+
+}

@@ -1,0 +1,88 @@
+#language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 75rem;
+  margin: 0px auto;
+  width: 100vw;
+}
+#language h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+}
+.languages{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 75vw;
+
+}
+.languageBox{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: aqua;
+  padding: 0.6rem 1rem;
+  min-width: 200px;
+  flex: 1;
+
+}
+.react{
+  background-color: #393939;
+}
+.nodejs{
+  background-color: #c6c6c6;
+}
+.express{
+  background-color: #c3c2c2;
+}
+.mongodb{
+  background-color: #98e48a;
+}
+.figma{
+  background-color: #03031B;
+}
+.wordpress{
+  background-color: #179dc2;
+}
+.php{
+  background-color: #7376AD;
+}
+.mysql{
+  background-color: #1c3b54;
+}
+.languageBox img{
+  width: 3rem;
+}
+@media (max-width: 400px) {
+  #language h1{
+      font-size: 2rem;
+  }
+  .languageBox{
+    gap: 0.2rem;
+    flex: 1;
+    min-width: fit-content;
+    
+  }
+  
+  .languageBox span{
+    font-size: 0.8rem;
+  }
+  .languageBox img{
+    width:2rem;
+  }
+ 
+}
+@media (max-width: 840px) {
+  .languageBox{
+    min-width: fit-content;
+  }
+  #language h1{
+    font-size: 2rem;
+  }
+ 
+}

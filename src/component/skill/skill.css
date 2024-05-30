@@ -1,0 +1,77 @@
+#skill{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+max-width: 75rem;
+margin: 0px auto;
+width: 100vw;
+
+}
+#skill h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+#skill p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    max-width: 50rem;
+    color: rgb(239, 239, 239);
+    padding: 1rem 2rem 2rem;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100vw;
+} 
+.skill{
+    margin: 1rem ;
+    flex: 1;
+    background:rgb(50, 50, 50) ;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 4px;
+}
+
+.skill .skillText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.skill img{
+    width: 100px;
+    object-fit: cover;
+}
+.skill h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.skill p{
+    font-size: 14px;
+    padding: 0.3rem 0 !important;
+    color: rgb(239, 239, 239);
+    font-weight: 200 !important;
+    text-align: left !important;
+}
+@media (max-width: 400px) {
+    #skill h1{
+        font-size: 2rem;
+    }
+    #skill p{
+        font-size: 0.9rem;
+    }
+    .skill{
+        flex-direction: column;
+        text-align: center;
+    }
+    .skill p{
+        text-align: center !important;
+    }
+}
